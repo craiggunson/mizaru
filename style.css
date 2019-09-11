@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "orbitron";
+  src: url("./orbitron.ttf");
+}
+
+html {
+  font-family: 'Orbitron', sans-serif;
+  color: #444444;
+  margin: 0;
+}
+
+.button {
+  color: #444444;
+  width: 90vw;
+  padding: 1vh;
+  text-align: left;
+  border-radius: .5vh;
+  -webkit-appearance: none;
+  margin-left: 3vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-family: 'Orbitron', sans-serif;
+  background: #55ffaa;
+  outline: none;
+  border: 0;
+  font-size: 3vh;
+}
+
+select {
+  padding: 1vh;
+  outline: none;
+  font-family: 'Orbitron', sans-serif;
+  color: #444444;
+  border-radius: .5vh;
+  width: 90vw;
+  -webkit-appearance: none;
+  margin-left: 3vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  background: #eeeeee;
+  border: 0;
+  font-size: 3vh;
+}
+
+h1 {
+  display: block;
+  line-height: 4vh;
+  font-size: 5vh;
+  margin-top: 3vh;
+  margin-bottom: 0vh;
+  padding: 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+h2 {
+  display: block;
+  line-height: 2vh;
+  font-size: 2vh;
+  margin-top: 0vh;
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+.result {
+  font-size: 2vh;
+  margin-left: 5vw;
+  margin-top: 1vh;
+  padding: 1vh;
+  text-align: center;
+  font-weight: normal;
+  font-size: 3vh;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  display: none;
+  margin: 0 auto;
+  visibility: hidden;
+}
+
+canvas {
+  display: block;
+  visibility: hidden;
+  margin: 0 auto;
+}

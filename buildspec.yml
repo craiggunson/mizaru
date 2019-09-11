@@ -1,0 +1,14 @@
+version: 0.1
+
+phases:
+  pre_build:
+    commands:
+      - echo deploying see app `date`
+  build:
+    commands:
+      - echo deploying static content to s3
+      - aws s3 sync . s3://see.craiggunson.com --acl public-read --cache-control "max-age=60" --delete --exclude ".git/*"
+
+  post_build:
+    commands:
+      - echo build completed on `date`
