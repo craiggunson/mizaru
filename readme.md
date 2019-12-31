@@ -7,10 +7,9 @@ see.craiggunson.com
 
 
 
-Serverless scene detection using Javascript and Rekognition.
+Machine powered scene detection using `Javascript` `HTML5` `Canvas` and `Rekognition`
 
 
-Example from Chrome (Android)
 
 
-![Sample](https://github.com/craiggunson/see/blob/master/sample.jpg)
+![Sample](./sample.jpg)
