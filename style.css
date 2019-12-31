@@ -5,14 +5,15 @@
 
 html {
   font-family: 'Orbitron', sans-serif;
-  color: #444444;
+  color: #604020;
   margin: 0 auto;
   text-align: center;
+  background: #f9f2ec;
 
 }
 
 .button {
-  color: #dbd3c3;
+  color: #f9f2ec;
   text-align: center;
 
   width: 90vw;
@@ -23,7 +24,7 @@ html {
   margin-top: 1vh;
   margin-bottom: 1vh;
   font-family: 'Orbitron', sans-serif;
-  background: #807156;
+  background: #ac7339;
   outline: none;
   border: 0;
   font-size: 3vh;
@@ -41,13 +42,13 @@ select {
 
   margin: 0 auto;
   font-family: 'Orbitron', sans-serif;
-  color: #dbd3c3;
+  color: #f9f2ec;
   border-radius: .5vh;
   width: 90vw;
 
   -webkit-appearance: none;
   margin-top: 1vh;
-  background: #807156;
+  background: #ac7339;
   border: 0;
   font-size: 3vh;
 }
@@ -93,11 +94,16 @@ video {
 
 img {
   visibility: visible;
-  display: block;
   margin: 0 auto;
-
+  height: 100%;
 }
 
+.wrapthis {
+  max-height: 7vh;
+  height: 7vh;
+  display: block;
+
+}
 canvas {
   display: block;
   width: 90vw;
