@@ -24,8 +24,8 @@ function snapshot(stream) {
     Image: {
       Bytes: imageBlob
     },
-    MaxLabels: 20,
-    MinConfidence: 70
+    MaxLabels: 10,
+    MinConfidence: 80
   };
   document.getElementById("result").innerHTML = "checking, please wait a few seconds...";
   rekognition.detectLabels(params, function (err, data) {
