@@ -5,26 +5,27 @@
 
 html {
   font-family: 'Orbitron', sans-serif;
-  color: #604020;
+  color: #334d00;
   margin: 0 auto;
   text-align: center;
-  background: #f9f2ec;
+  background: linear-gradient(to bottom, #669900 0%, #ccff66 100%);
+ 
 
 }
 
 .button {
-  color: #f9f2ec;
   text-align: center;
+  color: #334d00;
 
   width: 90vw;
   padding: 2vh;
   text-align: center;
-  border-radius: .5vh;
+  border-radius: 1vh;
   -webkit-appearance: none;
   margin-top: 1vh;
   margin-bottom: 1vh;
   font-family: 'Orbitron', sans-serif;
-  background: #ac7339;
+  background: #ffff66;
   outline: none;
   border: 0;
   font-size: 3vh;
@@ -39,25 +40,24 @@ select {
   outline: none;
   text-align: center;
   text-align-last: center;
+  color: #334d00;
 
   margin: 0 auto;
   font-family: 'Orbitron', sans-serif;
-  color: #f9f2ec;
-  border-radius: .5vh;
+  border-radius: 1vh;
   width: 90vw;
 
   -webkit-appearance: none;
-  margin-top: 1vh;
-  background: #ac7339;
+  margin-bottom: 1vh;
+  background: #ffff66;
   border: 0;
   font-size: 3vh;
 }
 
 h1 {
   display: block;
-  line-height: 4vh;
   font-size: 5vh;
-  margin-top: 1vh;
+  margin: 0;
   padding: 0;
   text-align: center;
   font-weight: normal;
@@ -65,9 +65,7 @@ h1 {
 
 h2 {
   display: block;
-  line-height: 2vh;
   font-size: 2vh;
-  margin-top: 1vh;
   padding: 0;
   text-align: center;
   font-weight: normal;
@@ -86,7 +84,7 @@ h2 {
 video {
   display: block;
   width: 90vw;
-  border-radius: .5vh; 
+  border-radius: 1vh; 
 
   padding: 0;
   margin: 0 auto;
