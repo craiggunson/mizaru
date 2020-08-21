@@ -24,21 +24,28 @@ function snapshot(stream) {
     Image: {
       Bytes: imageBlob
     },
-    MaxLabels: 10,
-    MinConfidence: 80
+    Attributes: [
+      "ALL"
+    ]
   };
   document.getElementById("result").innerHTML = "checking, please wait a few seconds...";
-  rekognition.detectLabels(params, function (err, data) {
+  rekognition.detectFaces(params, function (err, data) {
     if (err) console.log(err, err.stack); // an error occurred
     else { // successful response
-      tosay = ""
-      for (i = 0; i < data.Labels.length; i++) {
-        label = data.Labels[i].Name;
-        confidence = data.Labels[i].Confidence;
-        confidence = parseInt(confidence) + "%";
-        tosay = tosay + " " + label + " " + confidence;
+      
+      feels = data.FaceDetails[0].Emotions
+      //console.log(feels)
+      displaythis = ""
+      for (var i = 0; i < feels.length; i++) {
+        //console.log(feels[i]['Type'],feels[i]['Confidence']);
+        howfeel = feels[i]['Type']
+        howconfident = Math.round(feels[i]['Confidence'])
+        console.log(howfeel,howconfident);
+
+        displaythis=displaythis+howfeel+'  '+howconfident+'%<br>';
       }
-      document.getElementById("result").innerHTML = tosay;
+
+      document.getElementById("result").innerHTML = displaythis;
     } // successful response
   });
 }

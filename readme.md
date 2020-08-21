@@ -7,9 +7,6 @@ see.craiggunson.com
 
 
 
-Machine powered scene detection using `Javascript` `HTML5` `Canvas` and `Rekognition`
+Machine powered Emotion Detection using `Javascript` `HTML5` `Canvas` and `Rekognition`
 
 
-
-
-![Sample](./sample.jpg)
