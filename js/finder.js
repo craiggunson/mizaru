@@ -17,8 +17,8 @@ function snapshot(stream) {
   localMediaStream = stream;
   console.log('videoWidth:', video.videoWidth, 'videoHeight', video.videoHeight);
   ctx.drawImage(video, 0, 0, 1000, 1000, 0, 0, 300, 300);
-  document.querySelector('somedata').src = canvas.toDataURL('image/png');
-  var image_data = document.querySelector('somedata').src;
+  document.getElementById('somedata').src = canvas.toDataURL('image/png');
+  var image_data = document.getElementById('somedata').src;
   var imageBlob = dataURItoBlob(image_data);
   var params = {
     Image: {

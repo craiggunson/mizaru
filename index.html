@@ -8,8 +8,9 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta id="theme-meta" name="theme-color" content="rgb(102, 153, 0)">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
-  <title>Monkemo</title>
+  <title>emo detector</title>
 
   <script src="js/aws-sdk-2.738.0.js"></script>
 </head>
@@ -19,21 +20,22 @@
     <div id="wrapthis" class="wrapthis">
     <img src="monkey.png" alt="Monkey"></div>
 
-    <h1>monkemo</h1>
+    <h1>emo detector</h1>
 
 
-    <h2>How do you feel, take a picture?</h2>
+    <h2>How do you feel?</h2>
     <div class="select">
       <select id="videoSource"></select>
     </div>
-    <video muted autoplay></video>
     <input type="button" class="button" onclick="startReckognition()" value="Click Now!" />
 
   </div>
 
   <div id="result" class="result">...</div>
   <canvas></canvas>
-  <somedata></somedata>
+  <somedata id="somedata"></somedata>
+  <video muted autoplay></video>
+ 
   <script src="js/enable-cam.js"></script>
   <script src="js/finder.js"></script>
 </body>
