@@ -26,7 +26,8 @@
       <select id="videoSource">      <i class="fas fa-camera"></i>
       </select>
     </div>
-    <input type="button" class="button" onclick="startReckognition()" value="Click Now!" />
+
+ 
 
 
   <div id="result" class="result">...</div>
@@ -36,6 +37,21 @@
  
   <script src="js/enable-cam.js"></script>
   <script src="js/finder.js"></script>
+  <script>
+    var started = Date.now();
+    console.log('started',started)
+    const interval = setInterval(function() {
+       startReckognition();
+       if (Date.now() - started > 20000) {
+       console.log('stopping, so we dont run forever')
+      clearInterval(interval);}
+     }, 5000);    
+    
+   
+    
+ </script>
+ 
+
 </body>
 
 </html>
