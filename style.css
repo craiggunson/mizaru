@@ -5,31 +5,14 @@
 
 html {
   font-family: 'Orbitron', sans-serif;
-  color: #334d00;
+  color: #eeeeee;
   margin: 0 auto;
   text-align: center;
-  background: linear-gradient(to bottom, #669900 0%, #ccff66 100%);
+  background: linear-gradient(to bottom, #343688 0%, #5057b9 100%);
  
-
 }
 
-.button {
-  text-align: center;
-  color: #334d00;
 
-  width: 90vw;
-  padding: 2vh;
-  text-align: center;
-  border-radius: 1vh;
-  -webkit-appearance: none;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
-  font-family: 'Orbitron', sans-serif;
-  background: #ffff66;
-  outline: none;
-  border: 0;
-  font-size: 3vh;
-}
 
 option {
   text-align: left;
@@ -40,16 +23,16 @@ select {
   outline: none;
   text-align: center;
   text-align-last: center;
-  color: #334d00;
+  color: #333333;
 
   margin: 0 auto;
   font-family: 'Orbitron', sans-serif;
   border-radius: 1vh;
-  width: 90vw;
+  width: 20vw;
 
   -webkit-appearance: none;
   margin-bottom: 1vh;
-  background: #ffff66;
+  background: rgba(255, 255, 255, 0.3);
   border: 0;
   font-size: 3vh;
 }
