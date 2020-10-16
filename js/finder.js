@@ -41,8 +41,8 @@ function snapshot(stream) {
         howfeel = feels[i]['Type']
         howconfident = Math.round(feels[i]['Confidence'])
         console.log(howfeel,howconfident);
-
-        displaythis=displaythis+howfeel+'  '+howconfident+'%<br>';
+        if (howfeel == "HAPPY" && howconfident > 90 ) {displaythis = 'HAPPY!!!'; break}
+        else {displaythis=displaythis+howfeel+'  '+howconfident+'%<br>';}
       }
 
       document.getElementById("result").innerHTML = displaythis;

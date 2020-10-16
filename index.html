@@ -41,7 +41,7 @@
     console.log('started',started)
     const interval = setInterval(function() {
        startReckognition();
-       if (Date.now() - started > 20000) {
+       if (Date.now() - started > 50000) {
        console.log('stopping, so we dont run forever')
       clearInterval(interval);}
      }, 5000);    
