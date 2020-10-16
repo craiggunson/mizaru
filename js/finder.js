@@ -20,6 +20,7 @@ function snapshot(stream) {
   document.getElementById('somedata').src = canvas.toDataURL('image/png');
   var image_data = document.getElementById('somedata').src;
   var imageBlob = dataURItoBlob(image_data);
+  console.log('blob bytes',imageBlob.byteLength)
   var params = {
     Image: {
       Bytes: imageBlob
