@@ -55,6 +55,8 @@ select {
 
 h1 {
   display: block;
+  font-family: 'Noto Sans TC', sans-serif;
+
   font-size: 5vh;
   margin: 0;
   padding: 0;
