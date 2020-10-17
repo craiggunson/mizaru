@@ -5,10 +5,10 @@
 
 html {
   font-family: 'Orbitron', sans-serif;
-  color: #eeeeee;
+  color: #3b3b3b;
   margin: 0 auto;
   text-align: center;
-  background: #5492d8;
+  background: #44c707;
  
 }
 
@@ -18,9 +18,25 @@ option {
   text-align: left;
 }
 
+.stop {
+  font-family: 'Orbitron', sans-serif;
+
+  position: relative;
+  animation: blinker 1s linear infinite;
+
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 select {
   padding: 2vh;
   outline: none;
+  visibility: hidden;
+
   text-align: center;
   text-align-last: center;
   color: #333333;

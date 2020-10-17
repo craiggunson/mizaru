@@ -29,7 +29,7 @@ function snapshot(stream) {
       "ALL"
     ]
   };
-  document.getElementById("result").innerHTML = "checking, please wait a few seconds...";
+  document.getElementById("result").innerHTML = "sending";
   rekognition.detectFaces(params, function (err, data) {
     if (err) console.log(err, err.stack); // an error occurred
     else { // successful response
