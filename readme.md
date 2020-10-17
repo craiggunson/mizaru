@@ -9,4 +9,5 @@ see.craiggunson.com
 
 Machine powered Emotion Detection using `Javascript` `HTML5` `Canvas` and `Rekognition`
 
+![example](example.jpg)
 
