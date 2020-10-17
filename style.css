@@ -1,10 +1,7 @@
-@font-face {
-  font-family: "orbitron";
-  src: url("./orbitron.ttf");
-}
+
 
 html {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
   color: #3b3b3b;
   margin: 0 auto;
   text-align: center;
