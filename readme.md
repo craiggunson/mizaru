@@ -1,4 +1,4 @@
-see.craiggunson.com
+Machine Powered Emotion Detection.
 ===================
 
 
@@ -7,7 +7,9 @@ see.craiggunson.com
 
 
 
-Machine powered Emotion Detection using `Javascript` `HTML5` `Canvas` and `Rekognition`
+Using `Javascript` `HTML5` `Canvas` and `Rekognition` take a photo, send it to Rekognition for analysis.  (We don't keep the photo).
+
+
 
 ![example](example.jpg)
 
