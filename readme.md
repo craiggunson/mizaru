@@ -10,6 +10,6 @@ Machine Powered Emotion Detection.
 Using `Javascript` `HTML5` `Canvas` and `Rekognition` take a photo, send it to Rekognition for analysis.  (We don't keep the photo).
 
 
-
+  
 ![example](example.jpg)
 
